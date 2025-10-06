@@ -10,13 +10,18 @@
     border-bottom: 1px solid black;
     z-index: 99;
 }
+nav.a {
+    color: blueviolet;
+    background-color: blueviolet;
+}
 
 .nyx {
     border: 1px solid black;
     padding: 3px;
     background-color: white;
     font-style: italic;
-    font-size: larger;
+    font-size: 30px;
+    text-decoration: none;
 }
 
 main {
