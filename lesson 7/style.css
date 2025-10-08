@@ -1,0 +1,109 @@
+body {
+    background-color: #c9d6ff;
+    padding: 0;
+    margin: 20px 20px;
+    font-family: sans-serif;
+
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigations {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    padding: 8px;
+}
+nav a:hover {
+    background-color: violet;
+    border-radius: 1px;
+}
+
+
+.nyx {
+    background-color: violet;
+    height: 20px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home {
+    background-color: violet;
+    height: 20px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainbody {
+    margin-top: 200px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.main-container {
+width: 90%;
+background-color: white;
+display: flex;
+border-radius: 30px;
+}
+
+.firstbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.secondbox {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+.firstbox1 {
+    padding: 20px;
+    font-size: 30px;
+}
+.firstbox2 {
+    padding: 20px;
+    font-size: 20px;
+}
+.firstbox3 {
+    display: block;
+  margin-left: 20px;
+    align-self: start;
+}
+.firstbox3 button {
+
+    background-color:violet;
+}
+.firstbox3 button:hover {
+    background-color: rgb(225, 19, 225);
+}
+.firstbox4 {
+    display: flex;
+    justify-content: center;
+    border: 20px solid white;
+    gap: 100px;
+}
