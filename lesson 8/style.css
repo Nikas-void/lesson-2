@@ -1,0 +1,46 @@
+.main-wrapper {
+    background-color: blue;
+    padding: 10px;
+    width: 340px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-row: 150px 150px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.wrapper div {
+    background-color: rgb(0, 255, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.block1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.main-box {
+    background-color: blue;
+    display: flex;
+    width: 350px;
+    height: 190px;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+    column-gap: 0px;
+    row-gap: 10px; 
+}
+.box div {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 1px solid black;
+}

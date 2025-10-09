@@ -63,10 +63,10 @@ nav a:hover {
     justify-content: center;
 }
 .main-container {
-width: 90%;
-background-color: white;
-display: flex;
-border-radius: 30px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 30px;
 }
 
 .firstbox {
