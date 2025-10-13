@@ -39,13 +39,14 @@ button {
     background: #1334d6;
     background: radial-gradient(circle, rgba(19, 52, 214, 1) 0%, rgba(252, 70, 107, 1) 100%);
     border-radius: 20px;
+
 }
 
 button:hover {
     position: relative;
     background: #1334d6;
     background: radial-gradient(circle, rgb(41, 62, 165) 0%, rgb(41, 127, 73) 100%);
-
+    transition: all 1s ease-in;
 }
 /* BOX */
 
