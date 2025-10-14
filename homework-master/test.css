@@ -16,7 +16,6 @@ img {
 }
 
 .container1 {
-  object-fit: cover;
 }
 
 .container2 {
@@ -66,7 +65,7 @@ img {
   visibility: hidden;
 }
 .container1:hover .text-box {
-  height: 60px;
+  height: 50%;
 }
 .container1:hover .description {
   visibility: visible;
