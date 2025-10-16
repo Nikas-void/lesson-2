@@ -6,7 +6,7 @@
 .box1 {
   display: flex;
   justify-content: space-between;
-  height: 70px;
+  padding: 10px;
   align-items: center;
   font-family: sans-serif;
   position: fixed;
@@ -145,12 +145,12 @@ main {
 }
 
 .menu-title {
-    border-bottom: 2px solid rgb(213, 220, 75) ;
-    padding-bottom: 10px;
+  border-bottom: 2px solid rgb(213, 220, 75);
+  padding-bottom: 10px;
 }
 .menu-item-price {
-    color: #c6a655;
-    font-size: 20px;
+  color: #c6a655;
+  font-size: 20px;
 }
 
 @media (min-width: 600px) and (max-width: 992px) {
@@ -160,8 +160,8 @@ main {
     flex-wrap: wrap;
   }
   .menu-box {
-        width: 80%;
-    }
+    width: 80%;
+  }
 }
 @media (max-width: 601px) {
   .menu-container {
@@ -172,5 +172,9 @@ main {
     width: 80%;
   }
   #menu {
+    height: auto;
+  }
+  .navigations {
+    
   }
 }

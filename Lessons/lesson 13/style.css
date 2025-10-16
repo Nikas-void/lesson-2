@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Task 1 */
+.box1 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(241, 7, 7);
+  position: relative;
+  animation-name: void;
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes void {
+  from {
+    background-color: rgb(0, 55, 255);
+    left: 0;
+  }
+  to {
+    left: 300px;
+  }
+}
+
+/* Task 2 */
+
+.text1 {
+    font-size: 30px;
+    animation-name: nyx;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes nyx {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Task 3 */
+
+.btn1 {
+    font-size: 20px;
+    animation-name: button1 ;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button1 { 
+    0% {
+        transform: scale(1);
+        color: yellow;
+    }
+    50% {
+        transform: scale(1.1);
+        color: turquoise;
+    }
+
+    100% {
+        transform: scale(1);
+        color: brown;
+    }
+}
+
+/* Task 4 */ 
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    animation-name: Snowplus;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Snowplus {
+    0% {
+        background-color: blue;
+     }
+    25% {
+        background-color: green;
+     }
+    50% {
+        background-color: yellow;
+     }
+    75% {
+        background-color: blueviolet;
+     }
+    100% {
+        background-color: blue;
+     }
+}
+
+/* Task 5 */
+
+.text2 {
+    font-size: 20px;
+    animation-name: Cola;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes Cola {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
