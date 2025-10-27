@@ -1,8 +1,8 @@
 // // 1
 
-// const fruits = ["apple", "orange", "banana", "mango", "grape"];
+const fruits = ["apple", "orange", "banana", "mango", "grape"];
 
-// console.log(fruits.slice(2, 3));
+console.log(fruits.slice(2, 3));
 
 // // 2
 
@@ -78,19 +78,19 @@
 //   console.log("Computer  WON");
 // }
 
-const people = [
-  "Jhon",
-  "Dima",
-  "Lina",
-  "Kunkka",
-  "Void",
-  "Luna",
-  "Crystal",
-  "Finger-Lady",
-  "Tarnished",
-  "Flamey",
-];
-const firstPeople = people[Math.floor(Math.random() * people.length)];
-people.splice(people.indexOf(firstPeople), 1)
-const secondPeople = people[Math.floor(Math.random() * people.length)];
-console.log("2 people team:  " + firstPeople, secondPeople);
+// const people = [
+//   "Jhon",
+//   "Dima",
+//   "Lina",
+//   "Kunkka",
+//   "Void",
+//   "Luna",
+//   "Crystal",
+//   "Finger-Lady",
+//   "Tarnished",
+//   "Flamey",
+// ];
+// const firstPeople = people[Math.floor(Math.random() * people.length)];
+// people.splice(people.indexOf(firstPeople), 1)
+// const secondPeople = people[Math.floor(Math.random() * people.length)];
+// console.log("2 people team:  " + firstPeople, secondPeople);
