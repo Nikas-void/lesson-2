@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border: 2px solid black;
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  box-shadow: 2px 2px;
+}
+.container {
+  background-color: aliceblue;
+}
+
+#mainBody {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-size: cover;
+  filter: blur(10px);
+  z-index: -1;
+}
+.mainBody {
+  background-image: url(pictures/Meteorology.jpeg);
+}
+#city-input {
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 4px 4px;
+}
+
+#get-weather {
+  padding: 7px;
+  background: #eeaeca;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border-radius: 10px;
+  box-shadow: 5px 5px;
+  transition: 0,5s ease;
+}
+
+#get-weather:hover {
+    translate: 5px 5px;
+    box-shadow: none;
+    
+}
+
+.cloudyImage {
+  background-image: url(pictures/cloudy.png);
+  background-size: cover;
+}
+.clearImage {
+  background-size: contain;
+  background-image: url(pictures/clearsky.png);
+}
+.rainImage {
+  background-size: cover;
+  background-image: url(pictures/rain.png);
+}
+.drizzleImage {
+  background-size: contain;
+  background-image: url(pictures/drizzle.png);
+}
+.thunderstormImage {
+  background-size: contain;
+  background-image: url(pictures/thunderstorm.png);
+}
+.snowImage {
+  background-size: contain;
+  background-image: url(pictures/snow.png);
+}
+.extremeImage {
+  background-size: contain;
+  background-image: url(pictures/extreme.png);
+}
+.fogImage {
+  background-size: contain;
+  background-image: url(pictures/fog.png);
+}
+.smokeImage {
+    background-size: contain;
+    background-image: url(pictures/smoke.png);
+}
+.mistImage {
+    background-size: contain;
+    background-image: url(pictures/mist.png);
+}
+/* hello */
+.cloudyImage1 {
+  background-image: url(pictures/cloudy.png);
+  background-size: cover;
+}
+.clearImage1 {
+  background-size: contain;
+  background-image: url(pictures/clearsky.png);
+}
+.rainImage1 {
+  background-size: cover;
+  background-image: url(pictures/rain.png);
+}
+.drizzleImage1 {
+  background-size: contain;
+  background-image: url(pictures/drizzle.png);
+}
+.thunderstormImage1 {
+  background-size: contain;
+  background-image: url(pictures/thunderstorm.png);
+}
+.snowImage1 {
+  background-size: contain;
+  background-image: url(pictures/snow.png);
+}
+.extremeImage1 {
+  background-size: contain;
+  background-image: url(pictures/extreme.png);
+}
+.fogImag1 {
+  background-size: contain;
+  background-image: url(pictures/fog.png);
+}
+.smokeImage1 {
+    background-size: contain;
+    background-image: url(pictures/smoke.png);
+}
+.mistImage1 {
+    background-size: contain;
+    background-image: url(pictures/mist.png);
+}

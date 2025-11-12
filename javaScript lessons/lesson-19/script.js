@@ -13,6 +13,7 @@ const person = {
   firstName: "Ross",
   lastName: "Geller",
   age: "30",
+  getFullName: 
 };
 person.position = "paleontologist";
 person.city = "NewYork";
@@ -65,6 +66,7 @@ const info = {
       street: "Bedford",
       zipCode: "010000",
     },
+    getFullAdress : function(){}
   },
 };
 console.log(info)
